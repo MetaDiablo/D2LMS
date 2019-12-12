@@ -36,7 +36,6 @@ subIndex=0
 #buffer for item stats in each iteration.
 statBuffer=[]
 
-#i hate for loops in python.
 for item in data['runewords']:
     #print the item we are working with.
     #print('item: ' + str(item))
