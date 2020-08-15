@@ -19,7 +19,7 @@ import requests
 import json
 
 # Collect the runewords
-page = requests.get('https://metadiablo.com/items/runewords.txt')
+page = requests.get('https://metadiablo.com/API/items/runewords')
 
 #print the response; 200 response we hope.
 print(page)
